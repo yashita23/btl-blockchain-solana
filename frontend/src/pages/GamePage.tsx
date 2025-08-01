@@ -78,7 +78,7 @@ export default function App() {
 
   return (
     <div className="p-4 font-mono">
-      <h1 className="text-2xl font-bold mb-4">🎴 DRiP War</h1>
+      <h1 className="text-2xl font-bold mb-4"> DRIP WAR</h1>
 
       <div className="grid grid-cols-2 gap-8">
         <div>
@@ -120,7 +120,7 @@ export default function App() {
       <div className="mt-6 space-y-4">
         {winner && (
           <div className="text-xl">
-            👉 Kết quả:{" "}
+             Kết quả:{" "}
             {winner === "draw" ? "Hoà" : winner === "player1" ? "Người chơi 1 thắng" : "Người chơi 2 thắng"}
           </div>
         )}
@@ -129,13 +129,13 @@ export default function App() {
             className="px-4 py-2 bg-green-600 text-white rounded"
             onClick={playRound}
           >
-            ▶️ Chơi ván mới
+             Chơi ván mới
           </button>
           <button
             className="px-4 py-2 bg-gray-400 text-white rounded"
             onClick={resetGame}
           >
-            🔁 Reset
+             Reset
           </button>
         </div>
       </div>
